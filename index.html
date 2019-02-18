@@ -1,0 +1,29 @@
+<html>
+<title></title>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="myScript.js"></script>
+</head>
+
+<body>
+    <p><input type="radio" name="age" onclick="Age('a')">Вам меньше 20 лет</p>
+    <p><input type="radio" name="age" onclick="Age('b')">Вам от 20 до 40 лет</p>
+    <p><input type="radio" name="age" onclick="Age('c')">Вам больше 40лет</p>
+    <p><input type="radio" name="state" onclick="Source()">Так себе</p>
+    <p><input type="radio" name="state" onclick="State('e')">Хорошо</p>
+    <p><input type="radio" name="state" onclick="State('f')">Отлично</p>
+    <button onclick="Message()">Подтвердить</button>
+
+
+    <button onclick="Message()">fdgfdg</button>
+    <script>
+    function Message(){
+        var utterThis = new SpeechSynthesisUtterance("Hello world");
+        window.speechSynthesis.speak(utterThis);
+        }
+    </script>
+</body>
+
+</html> 

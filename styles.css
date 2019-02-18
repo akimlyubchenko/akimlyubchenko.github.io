@@ -1,0 +1,22 @@
+    .first-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .second-container {
+        display: flex;
+        flex-wrap: row;
+    }
+
+    .second-container {}
+
+    .item {
+        margin-right: 3%;
+        background: green;
+        margin-bottom: 20px;
+        border-radius: 9px;
+        text-align: center;
+        padding: 40px 0 40px 0;
+        width: 200px;
+        font-size: 20px;
+    }
